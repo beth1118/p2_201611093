@@ -1,0 +1,22 @@
+start
+:get user input a;
+:get user input b;
+if (a=='s')
+    if (b=='s')
+     :print "draw";
+     elseif (b=='r')
+      :print "rock wins";
+      elseif (b=='p')
+      :print "sissors wins";
+      
+if (a=='r')
+    if (b=='r')
+    :print "draw";
+    elseif (b=='p')
+    :print "paper wins";
+
+if (a=='p')
+    if (b=='p')
+    :print "draw";
+
+stop
