@@ -1,0 +1,21 @@
+start  
+   
+title <BMI>  
+  
+:BMI=weight/(height*height);  
+if(BMI=<18.5)  
+:under weight;  
+elseif(18.5<BMI=<23)  
+:nomal weight;  
+elseif(23<BMI=<25)  
+:overweight;  
+elseif(25<BMI=<30)  
+:obesity;  
+elseif(30<BMI=<35)  
+:extremly obesity;  
+else(35<BMI)  
+:very extremly obesity;  
+  
+endif  
+  
+stop  
