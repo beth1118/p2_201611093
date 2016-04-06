@@ -1,0 +1,18 @@
+start
+:get input natural number;
+repeat
+
+if (X<=1000?)  then (yes)
+ if (X/3=natural?) then (yes)
+:sum;
+else(no)
+:do not sum;
+endif
+elseif (X/5=natuarl?) then (yes)
+:sum;
+else(no)
+:do not sum;
+endif
+repeat while (0<X<1000); 
+:print result;
+stop
