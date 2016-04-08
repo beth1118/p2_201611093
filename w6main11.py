@@ -19,7 +19,7 @@ start
  :print leapyear!;
  else (no)
  :print no leapyear;
- endi
+ endif
 
 
 def Game():
