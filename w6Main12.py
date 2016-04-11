@@ -1,4 +1,9 @@
-﻿x=list()
+"""
+@author LYJ
+@since 160411
+"""
+
+x=list()
 
 def sumList(aList):
     sum=0
