@@ -3,7 +3,7 @@
         self.name=name
     def getName(self):
         print "my dog name is ",self.name
-mydog=Dog('lucky')
+mydog=Dog('poppy')
 mydog.getName()
 class Dog(Dog):
     def __init__(self,name):
